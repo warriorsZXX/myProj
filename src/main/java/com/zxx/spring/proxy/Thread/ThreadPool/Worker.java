@@ -5,7 +5,7 @@ package com.zxx.spring.proxy.Thread.ThreadPool;
  * @date 2020/11/26 11:22
  * @description 具体线程
  */
-public class Worker extends Thread {
+public class Worker extends java.lang.Thread {
     private FixedSizeThreadPool pool;
 
     public Worker(FixedSizeThreadPool pool){

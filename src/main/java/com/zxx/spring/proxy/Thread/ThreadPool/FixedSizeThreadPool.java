@@ -1,10 +1,8 @@
 package com.zxx.spring.proxy.Thread.ThreadPool;
 
-import javax.swing.text.StyledEditorKit;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 

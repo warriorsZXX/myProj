@@ -7,6 +7,18 @@
     <groupId>com.xingxi.zhang</groupId>
     <artifactId>myProj</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <!--<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>6</source>
+                    <target>6</target>
+                </configuration>
+            </plugin>-->
+        </plugins>
+    </build>
 
     <dependencies>
         <dependency>
@@ -14,9 +26,15 @@
             <artifactId>lombok</artifactId>
             <version>1.18.12</version><!--版本号自己选一个就行-->
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
+        </dependency>-->
+
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>RELEASE</version>
         </dependency>
     </dependencies>
 </project>

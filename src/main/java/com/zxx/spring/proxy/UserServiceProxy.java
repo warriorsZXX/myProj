@@ -43,7 +43,7 @@ public class UserServiceProxy implements UserService {
 
     public static void main(String[] args) {
         Integer a = 0;
-        boolean flag = "0" == (a);
+        boolean flag = false;
         System.out.println(flag);
     }
 }
